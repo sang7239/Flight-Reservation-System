@@ -1,6 +1,6 @@
 # Flight-Reservation-System
 
-#### Requirements
+## Requirements
 The Flight-Reservation-System is a CLI (Command Line Input) application that supports flight booking for different users. Following are the functional specifications for the flight service system:
 
 - **create** takes in a new username, password, and initial account balance as input. It creates a new user account with the initial balance.
@@ -75,7 +75,7 @@ The Flight-Reservation-System is a CLI (Command Line Input) application that sup
 
 - **quit** leaves the interactive system and logs out the current user (if logged in).
 
-#### Data Model
+## Data Model
 
 The flight service system consists of the following logical entities.
 
@@ -89,7 +89,7 @@ The flight service system consists of the following logical entities.
 - **Reservations**: A booking for an itinerary, which may consist of one (direct) or two (one-hop) flights.
   Each reservation can either be paid or unpaid, cancelled or not, and has a unique ID.
   
-  #### Data Schema
+  ## Data Schema
   
 ```sql
 Flights(
@@ -162,7 +162,7 @@ Flights(
 
 ```
 
-#### User Interface
+## User Interface
 ```
 *** Please enter one of the following commands ***
 > create <username> <password> <initial amount>
